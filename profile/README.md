@@ -16,7 +16,7 @@ Every competitive game gives the operator a stat screen. AI didn't. We fixed tha
 
 The **Conservation Law of Commitment** ([DOI: 10.5281/zenodo.20029607](https://doi.org/10.5281/zenodo.20029607)) states that commitment content — the obligations, prohibitions, and modal constraints in language — survives recursive transformation when an enforcement gate is present, and decays when it isn't. Published under CC-BY-4.0. Falsifiable. Tested across seven experiments.
 
-**MO§ES™** (Modus Operandi §ignal Scaling Expansion System) is the enforcement architecture built on that law — governance in the execution path, not after it. Patent pending.
+**MO§ES™** (Modus Operandi §ignal Scaling Expansion System) is the enforcement architecture built on that law — governance in the execution path, not after it. Every governed action traces back to the origin filing via **lineage custody** — a cryptographic chain that proves provenance. The code is MIT. The lineage is not. Patent pending.
 
 ---
 
@@ -47,7 +47,7 @@ Constitutional AI governance built on the Conservation Law. The enforcement gate
 | [commitment-conservation](https://github.com/SunrisesIllNeverSee/commitment-conservation) | The foundational published law. CC-BY-4.0. |
 | [Commitment_Theory](https://github.com/SunrisesIllNeverSee/Commitment_Theory) | The 34-paper research program built on the law. |
 | [moses-governance](https://github.com/SunrisesIllNeverSee/moses-governance) | The framework — Six-Gate Protocol, role hierarchy, SHA-256 audit chain. |
-| [moses-claw-gov](https://github.com/SunrisesIllNeverSee/moses-claw-gov) | Constitutional Claw governance harness — CoVerify, lineage claws. |
+| [moses-claw-gov](https://github.com/SunrisesIllNeverSee/moses-claw-gov) | Constitutional Claw governance harness — CoVerify, lineage custody, SHA-256 audit chain. |
 | [moses-governance-cowork](https://github.com/SunrisesIllNeverSee/moses-governance-cowork) | Constitutional governance for Claude.ai Chat and Cowork. |
 | [FMS-2.0-Package](https://github.com/SunrisesIllNeverSee/FMS-2.0-Package) | Floating Moat Standard — governance package for commitment conservation enforcement. |
 | [command-engine](https://github.com/SunrisesIllNeverSee/command-engine) | Open-source governance runtime for multi-AI operations. |
@@ -87,13 +87,14 @@ Every product is a different surface for the same gate:
 ```
 Conservation Law (the substrate)
     └── MO§ES™ (the enforcement architecture)
+         ├── Lineage custody — cryptographic chain to origin filing
          ├── SigRank     — the intelligence layer (signalaf.com)
          ├── KASSA       — the voice layer
          ├── AQUA        — the workflow layer (mos2es.xyz)
          └── SIGNOMY     — the marketplace layer (signomy.xyz)
 ```
 
-Make governance a property of the execution path, not a policy document someone reads once.
+Make governance a property of the execution path, not a policy document someone reads once. Every action has a receipt. Every receipt traces to origin.
 
 ---
 
